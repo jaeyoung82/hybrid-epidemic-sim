@@ -10,7 +10,6 @@ hazards, Kaplan–Meier, and optional shared-frailty models) for causal inferenc
 on mass-gathering effects.
 
 > This is **research software**. It is not optimized for production deployment.
-> If you use it in published work, please cite it (see [Citation](#citation)).
 
 ---
 
