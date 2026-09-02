@@ -1,0 +1,22 @@
+{
+   "_comment": "Copy to my_config.json and edit only what you need. Run: python run_hybrid_simulation.py --config my_config.json. Omit fields to use defaults. Underscore keys are ignored.",
+  "R_0": 1.5,
+  "I_ss": 1,
+  "n_iterations": 1000, 
+  "n_days": 250,
+  "seed_patch_ids": [0],
+  "current_event_scenario_names": ["AMS_dance", "AMS_football", "Leipzig_1", "Leipzig_2", "Leipzig_3"],
+  "event_base_transmission_rate_values": [0.1, 0.2, 0.3, 0.4, 0.5],
+  "event_simulation_modes": ["large_venue", "no_event"],
+  "no_event_seeding_mode": "single_patch",
+  "parameter_sweep_config": {
+    "1": {"R0_start": 1.5, "R0_end": 1.5, "R0_step": 0.0}
+  },
+  "dataset_name": "Madrid",
+  "results_dir": "results_hybrid_sim",
+  "population_factor": 1.0,
+  "attendee_recruitment_model": "gravity",
+  "seeding_method": "import",
+  "rnd_seed_0": 1234567,
+  "invasion_tree_method": "arborescence"
+}

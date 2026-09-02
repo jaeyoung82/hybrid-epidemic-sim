@@ -1,0 +1,1 @@
+https://github.com/codeforgermany/click_that_hood/blob/main/public/data/madrid-districts.geojson
