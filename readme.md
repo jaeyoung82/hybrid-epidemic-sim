@@ -9,6 +9,8 @@ venues) and a **survival-analysis** layer (cluster-robust Cox proportional
 hazards, Kaplan–Meier, and optional shared-frailty models) for causal inference
 on mass-gathering effects.
 
+You may refer to our manuscript "Hybrid epidemic simulation framework coupling equation-based and individual-based models" from https://arxiv.org/abs/2609.35162 for more details.
+
 > This is **research software**. It is not optimized for production deployment.
 
 ---
@@ -20,8 +22,7 @@ on mass-gathering effects.
   and cached to disk; a much cheaper metapopulation SEIR sweep then reuses that
   cache across `R0` values, avoiding redundant micro-simulation.
 - **Empirical contact networks** for five mass-gathering events
-  (`AMS_dance`, `AMS_football`, `Leipzig_1/2/3`), plus a synthetic multi-venue
-  mode (`N12000_T36000`, `N2000_T36000`) defined in configuration.
+  (`AMS_dance`, `AMS_football`, `Leipzig_1/2/3`) defined in configuration.
 - **Configurable parameter sweeps** over `R0`, event transmission rate `β_event`,
   initial seed size `I_ss`, and multiple event scenarios, with deterministic,
   seed-derived RNG streams for reproducibility.
